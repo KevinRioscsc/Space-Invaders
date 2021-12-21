@@ -1,6 +1,6 @@
 SPACE INVADERS
 
-Just a simple take on Space Invaders using ES6 JS for practice
+My simple take on Space Invaders using ES6 JS for practice
 
 *This is not the final version
 
