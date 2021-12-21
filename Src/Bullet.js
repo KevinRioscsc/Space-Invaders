@@ -4,7 +4,7 @@ export default class Bullet{
         this.width =  10 ;
 
         this.image = new Image();
-        this.image.src = './Assets/Images/Bullet.png'
+        this.image.src = '../Assets/Images/Bullet.png'
 
        this.position = {
            x: gameX,

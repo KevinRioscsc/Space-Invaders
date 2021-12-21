@@ -18,7 +18,7 @@ const ctx = canvas.getContext("2d");
 
 
 const audio = new Audio();
-audio.src = "./Assets/Audio/BetterMenu.mp3";
+audio.src = "../Assets/Audio/BetterMenu.mp3";
 if(document.addEventListener("keydown", (event) =>{
 
     if(event.key === "Enter"){
@@ -32,6 +32,7 @@ let lastRender = 0;
 
 let ship = new Ship(canvas.width, canvas.height);
 let menu = new InvaderMenu(canvas.width, canvas.height);
+
 
 
 new input(ship);
@@ -51,6 +52,11 @@ const loop = (timestamp) => {
         ctx.font = '50px Arial';
         ctx.fillStyle = '#fff'
         ctx.fillText('You Win', 320, 700, 1000);
+    }
+    if(ship.lose){
+        ctx.font = '50px Arial';
+        ctx.fillStyle = '#fff'
+        ctx.fillText('Sorry You Lose', 320, 700, 1000);
     }
     if(startGame){
         ship.update(progress);

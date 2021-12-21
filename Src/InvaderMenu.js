@@ -1,15 +1,15 @@
 export default class Menu{
     constructor(GameWidth, GameHeight){
         this.imageLogo = new Image();
-        this.imageLogo.src = "./Assets/Images/logo_si.png";
+        this.imageLogo.src = "../Assets/Images/logo_si.png";
         this.image = new Image();
-        this.image.src = './Assets/Images/InvaderA2.png'
+        this.image.src = '../Assets/Images/InvaderA2.png'
         this.image2 = new Image();
-        this.image2.src = './Assets/Images/InvaderB2.png'
+        this.image2.src = '../Assets/Images/InvaderB2.png'
         this.image3 = new Image();
-        this.image3.src = './Assets/Images/InvaderC2.png'
+        this.image3.src = '../Assets/Images/InvaderC2.png'
         this.image4 = new Image();
-        this.image4.src = './Assets/Images/RedInvader.png'
+        this.image4.src = '../Assets/Images/RedInvader.png'
         this.height = 50;
         this.width = 50;
         this.position = {

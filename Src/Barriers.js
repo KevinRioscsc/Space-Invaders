@@ -2,7 +2,7 @@ export default class Barriers{
     constructor(x, y){
         
         this.image = new Image();
-       this.image.src  = './Assets/Images/FullBlock.png';
+       this.image.src  = '../Assets/Images/FullBlock.png';
         this.fullblock = true;
         this.isOK = false;
         this.isWeak = false;
@@ -19,14 +19,14 @@ export default class Barriers{
     }
     
     okBlock = () =>{
-        this.image.src = './Assets/Images/OkBlock.png';
+        this.image.src = '../Assets/Images/OkBlock.png';
         this.fullblock= false;
        this.isOK = true;
       
       
     }
     weakBlock =() =>{
-        this.image.src = './Assets/Images/WeakBlock.png'
+        this.image.src = '../Assets/Images/WeakBlock.png'
         this.isOK = false;
         this.isWeak = true;
        

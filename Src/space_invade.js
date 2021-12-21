@@ -18,7 +18,7 @@ export default class Ship{
         this.maxSpeed = 5;
         this.speed = 0;
         this.image = new Image();
-        this.image.src = "./Assets/Images/Ship.png"
+        this.image.src = "../Assets/Images/Ship.png"
 
         this.bulletArr = [];
         this.bulletInvader = [];
